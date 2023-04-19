@@ -1,0 +1,214 @@
+.main-left-side {
+    width: 354px;
+    height: 370px;
+    background-color: #ffff;
+    border-radius: 10px;
+    gap: 165px;
+    margin-right: 30px;
+   
+    
+    .header-left-side {
+        height: 90px;
+        background-color: #C6D8EB;
+        border-radius: 10px 10px 0px 0px;
+        
+        .div-header-left-side{
+            display: flex;
+            justify-content: center;
+            .user-img {
+                margin-top: 20px;
+                object-fit: cover;
+                width: 140px;
+                height: 140px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .name-desc {
+        text-align: center;
+        position: relative;
+        top: 30px;
+
+        h2 {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 15px;
+            color: #000000;
+        }
+
+        h3 {
+            margin-top: 15px;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+}
+
+
+.footer-left-side {
+
+    position: relative;
+    top: 200px;
+    padding: 0px 10px 0px 10px;
+
+    .who {
+        display: flex;
+        justify-content: space-between;
+
+        h4 {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+
+        h3 {
+            color: #0A66C2;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 20px;
+        }
+    }
+
+    .post {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+
+        h4 {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+
+        h3 {
+            color: #0A66C2;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 20px;
+        }
+    }
+}
+
+
+.main-interests {
+    margin-top: 40px;
+    width: 354px;
+    height: 460px;
+    border-radius: 10px;
+    gap: 165px;
+    background-color: #ffff;
+    text-align: center;
+
+
+    .interests-title {
+        display: flex;
+        justify-content: center;
+
+        .bookmark {
+            width: 16px;
+            height: 16px;
+            margin-top: 15px;
+            margin-right: 8px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 27px;
+            color: #000000;
+        }
+
+    }
+}
+
+
+.main-recently {
+    width: 500px;
+    margin-top: 25px;
+    padding-left: 20px;
+
+    h4 {
+        text-align: left;
+        color: #0A66C2;
+        text-decoration: underline;
+
+        a {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+
+    .recently {
+        width: 70%;
+
+        .rec {
+            display: flex;
+            margin-top: 5px;
+            font-size: 15px;
+            line-height: 20px;
+            .rec-p{
+                p{
+                    color: black;
+                }
+            }
+        }
+
+    }
+}
+
+.main-groups {
+    width: 90%;
+    margin-top: 30px;
+    padding-left: 20px;
+
+    h4 {
+        text-align: left;
+        color: #0A66C2;
+        text-decoration: underline;
+    }
+
+   
+
+    .first-g {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 5px;
+
+        svg {
+            margin-top: 2px;
+        }
+
+        p {
+            text-align: start;
+        }
+
+        .div-first-g{
+            margin-left: 5px;
+            text-align: start;
+        }
+    }
+}

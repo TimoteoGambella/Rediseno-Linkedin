@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+@import "./mediasQuerys.scss";
+
+@import "./generalStyles.scss";
+
+//login styles
+@import "./ViewsStyles/Login.scss";
+
+//home styles
+@import "./ViewsStyles/HomeStyles/Navbar.scss";
+@import "./ViewsStyles/HomeStyles/LeftSide.scss";
+@import "./ViewsStyles/HomeStyles/MiddleSide.scss";
+@import "./ViewsStyles/HomeStyles/RightSide.scss";
+@import "./ViewsStyles/HomeStyles/ChatSide.scss";
+
+
+.error-screen{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    font-size: 32px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 16px;
+    p{
+        text-align: center;
+    }
+}

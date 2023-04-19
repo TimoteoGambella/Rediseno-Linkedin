@@ -1,0 +1,276 @@
+.main-right-side {
+    width: 345px;
+    height: 460px;
+    border-radius: 10px;
+    gap: 165px;
+    background-color: #FFFF;
+
+    .right-side-header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+
+        .add {
+            margin-left: 15px;
+            margin-top: 20px;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 15px;
+            color: #000000;
+        }
+
+        .right-see-more {
+            display: flex;
+            justify-content: center;
+            width: 80px;
+            height: 30px;
+            align-items: center;
+            margin-right: 15px;
+            margin-top: 20px;
+
+            svg {
+                margin-right: 5px;
+            }
+
+            p {
+                width: 57px;
+                height: 15px;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 15px;
+                color: #0A66C2;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+            }
+        }
+
+        .right-see-more:hover {
+            background-color: #C6D8EB;
+            transition: all ease-out 300ms;
+            border-radius: 7px;
+        }
+
+        .right-see-more:active {
+            background: #C6D8EB;
+            color: #003264;
+            border-radius: 7px;
+        }
+
+    }
+
+    .right-side-mid {
+
+        .usuers-right-side {
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+            margin-top: 40px;
+            margin-left: 30px;
+
+            .profile-img {
+
+                img {
+                    border-radius: 50%;
+                }
+            }
+
+            h3 {
+                margin-left: 10px;
+                width: 200px;
+                height: 15px;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 15px;
+                color: #000000;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            h5 {
+                margin-top: 6px;
+                margin-left: 10px;
+                width: 143px;
+                height: 18px;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 18px;
+                color: #000000;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+            }
+
+            button {
+                display: flex;
+                justify-content: center;
+                margin-top: 8px;
+                margin-left: 10px;
+                width: 80px;
+                height: 30px;
+                border-radius: 8px;
+                border: solid 1px #0A66C2;
+                color: #0A66C2;
+                background-color: #FFFF;
+
+                svg {
+                    margin-top: 5.5px;
+                    margin-right: 1px;
+                    fill: #0A66C2;
+                }
+
+                p {
+                    margin-top: 4px;
+                }
+            }
+
+            button:hover {
+                background-color: #C6D8EB;
+                border: solid 1px #003264;
+                transition: all ease-out 300ms;
+                border-radius: 7px;
+            }
+
+            button:active {
+                background: #C6D8EB;
+                color: #003264;
+                border-radius: 7px;
+            }
+        }
+    }
+}
+
+.footer {
+    margin-top: 30px;
+    margin-left: 5px;
+
+    .top-footer {
+        background: #F5F5F5;
+        width: 345px;
+        height: 289px;
+
+
+        .footer-banner {
+            width: 98%;
+            height: 84.5%;
+            box-shadow: 0 3px 0 rgb(159, 156, 156);
+            border-radius: 15px;
+            background: url("../../../assets/banner.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+
+    .footer-options {
+        top: 80%;
+        right: 12%;
+        width: 310px;
+        height: 289px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #000000;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0px;
+        grid-auto-rows: minmax(20px, 25px);
+
+        .one {
+            grid-column: 1 / 3;
+            grid-row: 1;
+        }
+
+        .one:hover {
+            text-decoration: underline #000000;
+        }
+
+        .two {
+            grid-column: 2 / 3;
+            grid-row: 1;
+        }
+
+        .two:hover {
+            text-decoration: underline #000000;
+        }
+
+        .three {
+            grid-column: 3 / 3;
+            grid-row: 1;
+        }
+
+        .three:hover {
+            text-decoration: underline #000000;
+        }
+
+        .four {
+            grid-column: 2 / 4;
+            grid-row: 2;
+        }
+
+        .four:hover {
+            text-decoration: underline #000000;
+        }
+
+        .five {
+            grid-column: 1 / 4;
+            grid-row: 3;
+        }
+
+        .five:hover {
+            text-decoration: underline #000000;
+        }
+
+        .six {
+            grid-column: 3 / 4;
+            grid-row: 3;
+        }
+
+        .six:hover {
+            text-decoration: underline #000000;
+        }
+
+        .seven {
+            margin-right: 40px;
+            width: 150%;
+            grid-column: 2;
+            grid-row: 4;
+        }
+
+        .seven:hover {
+            text-decoration: underline #000000;
+        }
+
+        .eight {
+            width: 100%;
+            grid-column: 1 / 4;
+            grid-row: 5;
+        }
+
+        .eight:hover {
+            text-decoration: underline #000000;
+        }
+
+        .nine {
+            margin-left: 40px;
+            grid-column: 3;
+            grid-row: 5;
+        }
+
+        .nine:hover {
+            text-decoration: underline #000000;
+        }
+
+
+    }
+}
